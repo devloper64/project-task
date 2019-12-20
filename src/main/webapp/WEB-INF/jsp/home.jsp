@@ -80,19 +80,20 @@
               <div class="menu_section">
                 <h3>General</h3>
                 <ul class="nav side-menu">
-                  <li><a><i class="fa fa-home"></i> Home <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-home"></i> Dashboard <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
                       <li><a href="${pageContext.request.contextPath}/home">Dashboard</a></li>
                 
                     </ul>
                   </li>
-                  <li><a><i class="fa fa-edit"></i> Forms <span class="fa fa-chevron-down"></span></a>
+                  <li><a><i class="fa fa-edit"></i> Product <span class="fa fa-chevron-down"></span></a>
                     <ul class="nav child_menu">
-                      <li><a href="form.html">General Form</a></li>
-                  
+                      <li><a href="${pageContext.request.contextPath}/addproduct">Add Product</a></li>
+                      <li><a href="${pageContext.request.contextPath}/productlist">Product List</a></li>
                     </ul>
+
                   </li>
-          
+
               
                 </ul>
               </div>

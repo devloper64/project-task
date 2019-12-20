@@ -32,6 +32,10 @@ public class MvcConfig extends WebMvcConfigurerAdapter {
         super.addViewControllers(registry);
         registry.addViewController("/").setViewName("forward:/home");
         registry.addViewController("/home");
+        registry.addViewController("/productlist");
+        registry.addViewController("/addproduct");
+
+
 
 
 
