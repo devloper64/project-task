@@ -2,15 +2,68 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="1e3be113-00a3-4874-aa10-42ef4f2e29c1" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.gitignore" beforeDir="false" afterPath="$PROJECT_DIR$/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__antlr_antlr_2_7_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_istack_istack_commons_runtime_3_0_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__com_sun_xml_fastinfoset_FastInfoset_1_2_16.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_persistence_jakarta_persistence_api_2_2_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__jakarta_transaction_jakarta_transaction_api_1_3_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_aspectj_aspectjweaver_1_9_5.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_dom4j_dom4j_2_1_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_jaxb_runtime_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_glassfish_jaxb_txw2_2_3_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_common_hibernate_commons_annotations_5_1_0_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_hibernate_hibernate_core_5_4_9_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_javassist_javassist_3_24_0_GA.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jboss_jandex_2_1_1_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_jvnet_staxex_stax_ex_1_8_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_aop_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_data_jpa_2_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_commons_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_data_spring_data_jpa_2_2_3_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_aspects_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/libraries/Maven__org_springframework_spring_orm_5_2_2_RELEASE.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sweetitech/model/Product.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/main/java/com/example/sweetitech/repository/ProductRepoitory.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweetitech/model/Product.class" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/target/classes/com/example/sweetitech/repository/ProductRepoitory.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweetitech/MvcConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweetitech/MvcConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweetitech/SecurityConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweetitech/SecurityConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweetitech/SweetitechApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweetitech/SweetitechApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/com/example/sweetitech/controller/MainController.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/com/example/sweetitech/controller/MainController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/resources/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addproduct.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/addproduct.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/productlist.jsp" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/webapp/WEB-INF/jsp/productlist.jsp" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/sweetitech.iml" beforeDir="false" afterPath="$PROJECT_DIR$/sweetitech.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/application.properties" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweetitech/MvcConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/sweetitech/MvcConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweetitech/SecurityConfig.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/sweetitech/SecurityConfig.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweetitech/SweetitechApplication.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/sweetitech/SweetitechApplication.class" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/classes/com/example/sweetitech/controller/MainController.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/classes/com/example/sweetitech/controller/MainController.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="MavenImportPreferences">
+    <option name="importingSettings">
+      <MavenImportingSettings>
+        <option name="importAutomatically" value="true" />
+      </MavenImportingSettings>
+    </option>
   </component>
   <component name="ProjectId" id="1VHMjNYCkDYpvqcDxGxrPB7IQ9d" />
   <component name="ProjectViewState">
@@ -68,25 +121,29 @@
     <servers />
   </component>
   <component name="WindowStateProjectService">
-    <state x="146" y="25" width="1064" height="743" key="CommitChangelistDialog2" timestamp="1576907187865">
+    <state x="491" y="115" width="374" height="568" key="#com.intellij.ide.util.MemberChooser" timestamp="1576908631010">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state x="146" y="25" width="1064" height="743" key="CommitChangelistDialog2/0.25.1366.743@0.25.1366.743" timestamp="1576907187865" />
-    <state width="1320" height="231" key="GridCell.Tab.0.bottom" timestamp="1576906751241">
+    <state x="491" y="115" width="374" height="568" key="#com.intellij.ide.util.MemberChooser/0.25.1366.743@0.25.1366.743" timestamp="1576908631010" />
+    <state x="146" y="25" width="1064" height="743" key="CommitChangelistDialog2" timestamp="1576916429825">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1320" height="231" key="GridCell.Tab.0.bottom/0.25.1366.743@0.25.1366.743" timestamp="1576906751241" />
-    <state width="1320" height="231" key="GridCell.Tab.0.center" timestamp="1576906751240">
+    <state x="146" y="25" width="1064" height="743" key="CommitChangelistDialog2/0.25.1366.743@0.25.1366.743" timestamp="1576916429825" />
+    <state width="1320" height="389" key="GridCell.Tab.0.bottom" timestamp="1576916398347">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1320" height="231" key="GridCell.Tab.0.center/0.25.1366.743@0.25.1366.743" timestamp="1576906751240" />
-    <state width="1320" height="231" key="GridCell.Tab.0.left" timestamp="1576906751239">
+    <state width="1320" height="389" key="GridCell.Tab.0.bottom/0.25.1366.743@0.25.1366.743" timestamp="1576916398347" />
+    <state width="1320" height="389" key="GridCell.Tab.0.center" timestamp="1576916398346">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1320" height="231" key="GridCell.Tab.0.left/0.25.1366.743@0.25.1366.743" timestamp="1576906751239" />
-    <state width="1320" height="231" key="GridCell.Tab.0.right" timestamp="1576906751240">
+    <state width="1320" height="389" key="GridCell.Tab.0.center/0.25.1366.743@0.25.1366.743" timestamp="1576916398346" />
+    <state width="1320" height="389" key="GridCell.Tab.0.left" timestamp="1576916398345">
       <screen x="0" y="25" width="1366" height="743" />
     </state>
-    <state width="1320" height="231" key="GridCell.Tab.0.right/0.25.1366.743@0.25.1366.743" timestamp="1576906751240" />
+    <state width="1320" height="389" key="GridCell.Tab.0.left/0.25.1366.743@0.25.1366.743" timestamp="1576916398345" />
+    <state width="1320" height="389" key="GridCell.Tab.0.right" timestamp="1576916398346">
+      <screen x="0" y="25" width="1366" height="743" />
+    </state>
+    <state width="1320" height="389" key="GridCell.Tab.0.right/0.25.1366.743@0.25.1366.743" timestamp="1576916398346" />
   </component>
 </project>

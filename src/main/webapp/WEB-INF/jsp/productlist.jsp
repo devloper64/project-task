@@ -254,10 +254,9 @@
 											<tr>
 											    <th>Id</th>
 												<th>Name</th>
-												<th>Email</th>
-												<th>Phone</th>
-												<th>Gender</th>
-												<th>Address</th>
+												<th>Price</th>
+												<th>Profit</th>
+												<th>Product Type</th>
 												<th>Action</th>
 
 											</tr>
@@ -265,19 +264,19 @@
 
 										<tbody>
 
-											<c:forEach items="${customerlist}" var="c">
+											<c:forEach items="${productlist}" var="p">
 
 												<tr>
-												    <td>${c.id}</td>
-													<td>${c.name}</td>
-													<td>${c.email}</td>
-													<td>${c.phone}</td>
-													<td>${c.gender}</td>
-													<td>${c.adress}</td>
+												    <td>${p.id}</td>
+													<td>${p.name}</td>
+													<td>${p.price}</td>
+													<td>${p.profit}</td>
+													<td>${p.productType}</td>
+
 													  <td>
                             <a href="/Tsms/Customerprofile/${c.id}" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
                             <a href="/Tsms/editCustomer/${c.id}" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
-                            <a href="/Tsms/addorder/${c.id}" class="btn btn-success btn-xs"><i class="fa fa-plus"></i> Add Order </a>
+                            <a href="/TMS/deleteorder/${p.id}" class="btn btn-primary btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
 
                           </td>
 

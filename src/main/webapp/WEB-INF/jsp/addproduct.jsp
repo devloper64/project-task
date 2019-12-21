@@ -248,27 +248,27 @@
                                     </div>
                                     <div class="x_content">
 
-                                        <form id="demo-form2" method="post" action="${pageContext.request.contextPath}/porder/add"  class="form-horizontal form-label-left">
+                                        <form id="demo-form2" method="post" action="${pageContext.request.contextPath}/add"  class="form-horizontal form-label-left">
 
                                       <div class="form-group">
                                                 <label class="control-label col-md-3 col-sm-3 col-xs-12">Name <span class="required">*</span>
                                                 </label>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <input name="customername"  value="${name}"  class=" form-control col-md-7 col-xs-12" required="required" type="text">
+                                                    <input name="name"   class=" form-control col-md-7 col-xs-12" required="required" type="text">
                                                 </div>
                                             </div>
                                               <div class="form-group">
                                                 <label class="control-label col-md-3 col-sm-3 col-xs-12"> Price <span class="required">*</span>
                                                 </label>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <input name="customerphone"  value="${phone}"  class=" form-control col-md-7 col-xs-12" required="required" type="text">
+                                                    <input name="price" class=" form-control col-md-7 col-xs-12" required="required" type="text">
                                                 </div>
                                             </div>
                                                 <div class="form-group">
                                                                                             <label class="control-label col-md-3 col-sm-3 col-xs-12">Profit percentage <span class="required">*</span>
                                                                                             </label>
                                                                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                                                                <input name="customerphone"  value="${phone}"  class=" form-control col-md-7 col-xs-12" required="required" type="text">
+                                                                                                <input name="profit"    class=" form-control col-md-7 col-xs-12" required="required" type="text">
                                                                                             </div>
                                                                                         </div>
 
@@ -278,7 +278,7 @@
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
 
-                          <select   class="form-control" >
+                          <select name="productType"   class="form-control" >
                             <option  value="RAM">RAM</option>
                             <option  value="MOTHERBOARD">MOTHERBOARD</option>
                             <option  value="GRAPHICS CARD">GRAPHICS CARD</option>
