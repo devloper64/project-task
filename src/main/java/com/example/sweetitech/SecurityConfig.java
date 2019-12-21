@@ -31,7 +31,7 @@ public class SecurityConfig extends WebSecurityConfigurerAdapter {
         http.
                 csrf().disable().authorizeRequests()
                 .antMatchers("/login*","/logout*").permitAll()
-                .antMatchers("/","/home").access("hasRole('ROLE_ADMIN')");
+                .antMatchers("/","/home","/addproduct","/add","/productlist","/deleteoproduct/{id}","/updateproduct/{id}").access("hasRole('ROLE_ADMIN')");
                   http.formLogin().
                           loginProcessingUrl("/perform_login")
                           .defaultSuccessUrl("/home", true)

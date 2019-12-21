@@ -9,6 +9,7 @@ import org.springframework.validation.BindingResult;
 import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
+import javax.validation.Valid;
 import java.util.Map;
 import java.util.Optional;
 
@@ -19,7 +20,7 @@ public class MainController {
     ProductRepoitory productRepoitory;
 
     @RequestMapping(value="/add", method = RequestMethod.POST)
-    public  String addProduct(@ModelAttribute("Product") Product product,BindingResult result){
+    public  String addProduct(@Valid @ModelAttribute("Product") Product product, BindingResult result){
         productRepoitory.save(product);
         return "redirect:/productlist";
     }
@@ -47,6 +48,18 @@ public class MainController {
         return "updateproduct";
     }
 
+    @RequestMapping(value = "/home", method = RequestMethod.GET)
+    public  String getProductByProfit(Map<String, Object> map){
+        map.put("listproductbyprofot", new Product());
+        map.put("productlistbyprofit",productRepoitory.getProductByProfit());
+        return "home";
+    }
+
+    @RequestMapping(value="/update", method = RequestMethod.POST)
+    public  String updateProduct(@Valid @ModelAttribute("Product") Product product, BindingResult result){
+        productRepoitory.save(product);
+        return "redirect:/productlist";
+    }
 
 
 

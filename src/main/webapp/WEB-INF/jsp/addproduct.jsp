@@ -58,7 +58,7 @@
         <div class="col-md-3 left_col">
           <div class="left_col scroll-view">
             <div class="navbar nav_title" style="border: 0;">
-              <a href="index.html" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
+              <a href="${pageContext.request.contextPath}/home" class="site_title"><i class="fa fa-paw"></i> <span>Gentelella Alela!</span></a>
             </div>
 
             <div class="clearfix"></div>
@@ -217,7 +217,7 @@
                     <div class="">
                         <div class="page-title">
                             <div class="title_left">
-                                <h3>Add Order</h3>
+                                <h3>Add Product</h3>
                             </div>
 
                         </div>
@@ -228,7 +228,7 @@
                             <div class="col-md-12 col-sm-12 col-xs-12">
                                 <div class="x_panel">
                                     <div class="x_title">
-                                        <h2>Order Form</h2>
+                                        <h2>Product Form</h2>
                                         <ul class="nav navbar-right panel_toolbox">
                                             <li><a class="collapse-link"><i class="fa fa-chevron-up"></i></a>
                                             </li>

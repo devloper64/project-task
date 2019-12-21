@@ -6,7 +6,7 @@ import javax.persistence.*;
 public class Product  {
 //price, profit percentage, product
     @Id
-    @GeneratedValue(strategy = GenerationType.IDENTITY)
+    @GeneratedValue(strategy = GenerationType.SEQUENCE)
     @Column(unique = true, nullable = false)
     private  Long id;
     @Column
@@ -36,7 +36,7 @@ public class Product  {
         this.productType = productType;
     }
 
-    public long getId() {
+    public Long getId() {
         return id;
     }
 
