@@ -274,9 +274,9 @@
 													<td>${p.productType}</td>
 
 													  <td>
-                            <a href="/Tsms/Customerprofile/${c.id}" class="btn btn-primary btn-xs"><i class="fa fa-folder"></i> View </a>
-                            <a href="/Tsms/editCustomer/${c.id}" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
-                            <a href="/TMS/deleteorder/${p.id}" class="btn btn-primary btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
+
+                            <a href="${pageContext.request.contextPath}/updateproduct/${p.id}" class="btn btn-info btn-xs"><i class="fa fa-pencil"></i> Edit </a>
+                            <a href="${pageContext.request.contextPath}/deleteoproduct/${p.id}" class="btn btn-primary btn-xs"><i class="fa fa-trash-o"></i> Delete </a>
 
                           </td>
 

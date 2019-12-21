@@ -1,4 +1,5 @@
 <%@page contentType="text/html" pageEncoding="UTF-8"%>
+<%@page import="com.example.sweetitech.controller.MainController"%>
 <%@taglib prefix="c" uri="http://java.sun.com/jsp/jstl/core"%>
 <%@taglib uri="http://www.springframework.org/tags" prefix="spring" %>
 <%@taglib uri="http://www.springframework.org/tags/form" prefix="form" %>
@@ -248,27 +249,29 @@
                                     </div>
                                     <div class="x_content">
 
-                                        <form id="demo-form2" method="post" action="${pageContext.request.contextPath}/porder/add"  class="form-horizontal form-label-left">
-
-                                      <div class="form-group">
+                                        <form:form id="demo-form2" method="post" modelAttribute="product" action="${pageContext.request.contextPath}/add"  class="form-horizontal form-label-left">
+                                          <div class="form-group">
+                                           <form:hidden path="id"/>
+                                            </div>
+                                              <div class="form-group">
                                                 <label class="control-label col-md-3 col-sm-3 col-xs-12">Name <span class="required">*</span>
                                                 </label>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <input name="customername"  value="${name}"  class=" form-control col-md-7 col-xs-12" required="required" type="text">
+                                                    <form:input  path="name"  class=" form-control col-md-7 col-xs-12" required="required" type="text"/>
                                                 </div>
                                             </div>
                                               <div class="form-group">
                                                 <label class="control-label col-md-3 col-sm-3 col-xs-12"> Price <span class="required">*</span>
                                                 </label>
                                                 <div class="col-md-6 col-sm-6 col-xs-12">
-                                                    <input name="customerphone"  value="${phone}"  class=" form-control col-md-7 col-xs-12" required="required" type="text">
+                                                    <form:input path="price" class=" form-control col-md-7 col-xs-12" required="required" type="text"/>
                                                 </div>
                                             </div>
                                                 <div class="form-group">
-                                                                                            <label class="control-label col-md-3 col-sm-3 col-xs-12">Profit percentage <span class="required">*</span>
-                                                                                            </label>
+                                                <label class="control-label col-md-3 col-sm-3 col-xs-12">Profit percentage <span class="required">*</span>
+                                                   </label>
                                                                                             <div class="col-md-6 col-sm-6 col-xs-12">
-                                                                                                <input name="customerphone"  value="${phone}"  class=" form-control col-md-7 col-xs-12" required="required" type="text">
+                                                                                                <form:input path="profit"  class=" form-control col-md-7 col-xs-12" required="required" type="text"/>
                                                                                             </div>
                                                                                         </div>
 
@@ -278,12 +281,12 @@
                         </label>
                         <div class="col-md-6 col-sm-6 col-xs-12">
 
-                          <select   class="form-control" >
+                          <form:select path="productType"  class="form-control" >
                             <option  value="RAM">RAM</option>
                             <option  value="MOTHERBOARD">MOTHERBOARD</option>
                             <option  value="GRAPHICS CARD">GRAPHICS CARD</option>
 
-                          </select>
+                          </form:select>
                         </div>
                       </div>
 
@@ -297,7 +300,7 @@
                                                 </div>
                                             </div>
 
-                                        </form>
+                                        </form:form>
                                     </div>
                                 </div>
                             </div>

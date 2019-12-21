@@ -6,13 +6,11 @@ import com.example.sweetitech.repository.ProductRepoitory;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Controller;
 import org.springframework.validation.BindingResult;
-import org.springframework.web.bind.annotation.ModelAttribute;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RequestMethod;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 import org.springframework.web.servlet.ModelAndView;
 
 import java.util.Map;
+import java.util.Optional;
 
 @Controller
 public class MainController {
@@ -34,6 +32,21 @@ public class MainController {
 
         return "productlist";
     }
+
+    @RequestMapping(value = "/deleteoproduct/{id}", method = RequestMethod.GET)
+    public String deleteProduct(@PathVariable("id")Long id, Map<String, Object> map){
+        productRepoitory.deleteById(id);
+        return "redirect:/productlist";
+    }
+
+
+    @RequestMapping(value = "/updateproduct/{id}", method = RequestMethod.GET)
+    public String getUpdateProduct(@PathVariable("id")Long id, Map<String, Object> map){
+        Optional<Product> product=productRepoitory.findById(id);
+        map.put("product",product);
+        return "updateproduct";
+    }
+
 
 
 
